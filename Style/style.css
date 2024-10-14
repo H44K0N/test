@@ -1,0 +1,117 @@
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("/Media/Background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* Center the navbar */
+    margin: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Aligns the list items horizontally */
+    align-items: flex-end;
+    /* Align items at the bottom */
+    justify-content: space-around;
+    /* Spread out items with space around them */
+    border-radius: 15px;
+    /* Rounds the corners */
+    padding: 15px;
+    /* Internal padding inside the navbar */
+    width: calc(100% - 40px);
+    /* Ensure 20px border on both sides */
+    max-width: 100%;
+    /* Keep it responsive */
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li.logo h1 {
+    font-size: 2.5em;
+    /* Larger font size for the h1 */
+    font-family: "Rubik Mono One", monospace;
+    /* Use Rubik Mono One for h1 */
+    align-self: flex-end;
+    /* Align h1 at the bottom */
+    margin: 0;
+    padding: 0 20px;
+    /* Add space around the h1 */
+    color: #F0FFFF;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    /* Rounds the corners of each link */
+    font-size: 120%;
+    /* 20% bigger font size for the navbar links */
+    font-family: "Rubik Mono One", monospace;
+    /* Use Rubik Mono One for links */
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 15px;
+    /* Maintain the rounded corners on hover */
+}
+
+/* Center Text Styles */
+.center-text {
+    text-align: center;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    /* Reddit Sans Condensed */
+    margin: auto;
+    color: #F0FFFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Add background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    /* Restrict width for better text alignment */
+}
+
+.center-text h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.center-text p {
+    font-size: 1.4em;
+    /* Increased font size for readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
