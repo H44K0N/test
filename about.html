@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wandr - About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Wandr</h1>
+        </div>
+        <div class="hamburger">☰</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="login.html">Log in</a></li>
+        </ul>
+    </nav>
+
+    <div class="center-text">
+        <h2>About Us</h2>
+        <p>Wandr er en bedrift innenfor reiselivs-sektoren, med mål om å tilby brukerne skreddersydde reiseopplevelser.</p>
+        <p>Vi tilbyr relevant informasjon om aktiviteter og severdigheter basert på brukernes interesser og preferanser.</p>
+    </div>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
