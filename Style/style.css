@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    background-image: url('../images/beagle.jpg');
+    background-image: url('/Media/Background-image.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
